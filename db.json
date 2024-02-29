@@ -1,0 +1,32 @@
+{
+    "usuarios":[
+        {
+            "id":1012,
+            "nombre":"Luna",
+            "celular":352455,
+            "contraseña":33546365,
+            "imagen":"/jhghg",
+            "enLinea":true,
+            "description":"hola soy Luna",
+            "fechaUltimaS":"12/02/2024"
+        }
+    ],
+
+    "mensajes":[
+        {
+          "id":10155,
+          "senderUser":1012,
+          "recipientUser":1012,
+          "conversaciones":[
+            {
+             "sendBy":"luna",
+             "fecha":"29/02/2024",
+             "hora":"12.00",
+             "mensaje":"hola luna, como estas",
+             "visto":false
+            }
+          ]
+
+        }
+    ]
+}
