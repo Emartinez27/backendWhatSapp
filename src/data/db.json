@@ -1,0 +1,54 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Luna",
+      "celular": 352455,
+      "contraseña": 33546365,
+      "imagen": "https://static.vecteezy.com/system/resources/thumbnails/022/014/184/small/user-icon-member-login-isolated-vector.jpg",
+      "enLinea": false,
+      "description": "hola soy Luna",
+      "fechaUltimaS": "12/02/2024"
+    },
+    {
+      "id": "2",
+      "nombre": "Pedro",
+      "celular": 352455,
+      "contraseña": 33546365,
+      "imagen": "https://static.vecteezy.com/system/resources/thumbnails/022/014/184/small/user-icon-member-login-isolated-vector.jpg",
+      "enLinea": false,
+      "description": "hola, soy pedro",
+      "fechaUltimaS": "12/02/2024"
+    }
+  ],
+  "mensajes": [
+    {
+      "id": "1",
+      "senderUser": 1,
+      "recipientUser": 2,
+      "conversaciones": [
+        {
+          "sendBy": "luna",
+          "fecha": "29/02/2024",
+          "hora": "12.00",
+          "mensaje": "hola Pedro, como estas",
+          "visto": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "senderUser": 2,
+      "recipientUser": 1,
+      "conversaciones": [
+        {
+          "sendBy": "Pedro",
+          "fecha": "29/02/2024",
+          "hora": "12.00",
+          "mensaje": "hola luna, bien  y tú?",
+          "visto": false
+        }
+      ]
+    }
+  ]
+}
